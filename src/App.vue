@@ -1,5 +1,5 @@
 <template>
-        <Header></Header>
+        
   <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/login">Login</router-link>
@@ -30,7 +30,6 @@
 body{
   margin: 0;
   padding: 0;
-
 }
 
 nav {
@@ -48,4 +47,15 @@ nav a.router-link-exact-active {
 template{
   width: 100%;
 }
+h1 {
+    padding: 0 10px;
+    margin:0;
+    background-image: linear-gradient(180deg, rgba(190,93,255,1) 0%, rgba(225,106,231,1) 50%, rgba(69,252,250,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    
+ }
 </style>

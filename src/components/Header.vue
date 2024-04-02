@@ -1,7 +1,6 @@
 <template>
     <div class="header">
         <h1>Catstagram</h1>
-        <P>Home of Cat Pictures</P>
 
     </div>
 </template>
@@ -20,23 +19,15 @@ body {
  .header {
     /* background: rgba(7, 7, 7, 0.953); */
     font-size: xx-large;
-    font-style: italic;
     height: fit-content;
-    text-align: left;
+    text-align: center;
     width:100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid rgb(110, 109, 109);
+    box-shadow: 5px 5px 5px rgb(222, 221, 221);
+    padding: 10px;
+    background: rgba(236, 222, 222, 0.156);
     
  }
- h1 {
-    padding: 0 10px;
-    margin:0;
-    background-image: linear-gradient(180deg, rgba(190,93,255,1) 0%, rgba(225,106,231,1) 50%, rgba(69,252,250,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; 
-    
- }
+
  p{
     font-size: medium;
     padding: 0 10px;

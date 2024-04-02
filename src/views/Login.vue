@@ -25,7 +25,7 @@
         methods: {
             handleLogin() {
                 if(this.username !== '' && this.password !== '' ) {
-                    this.$router.push('/')
+                    this.$router.push('/feed')
                 }
                 else {
                     alert('Please enter username and password')
@@ -37,12 +37,12 @@
 
 </script>
 
-<style>
+<style scoped>
     
     form {
         max-width: 400px;
         margin: 20px auto;
-        background:rgb(185, 239, 227);
+        background: linear-gradient(90deg, rgba(190, 93, 255, 0.252) 0%, rgba(225, 106, 231, 0.482) 50%, rgba(69, 252, 249, 0.334) 100%);
         padding: 10px;
         border-radius: 10px;
     }
@@ -59,11 +59,14 @@
         border: none;
     }
     button {
-        background: rgb(14, 66, 157);
+        background: rgba(59, 128, 193, 0.693);
         border: 1px;
         padding:5px 10px;
         border-radius: 20px;
         color: white;
     }
-
+    h1 {
+        padding:100px;
+        font-size: 10em;
+    }
 </style>
