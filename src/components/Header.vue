@@ -23,7 +23,7 @@ body {
     text-align: center;
     width:100%;
     box-shadow: 5px 5px 5px rgb(222, 221, 221);
-    padding: 10px;
+    padding-bottom: 10px;
     background: rgba(236, 222, 222, 0.156);
     
  }
